@@ -13,12 +13,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grey Metal
-    second: {fileID: 2100000, guid: 9c9dd819ec1a0584582a7041119a99ef, type: 2}
+    second: {fileID: 2100000, guid: 1849331ebf4bbcd4d98400b39b8d387b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Light Grey Metal
-    second: {fileID: 2100000, guid: 781c2243214e2bc4880ced3ae679fc9c, type: 2}
+    second: {fileID: 2100000, guid: 8fbb4d55b5a7e0c40923d38ccd8d0754, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
