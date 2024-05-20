@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6461887860140140241}
   - component: {fileID: 8592764778166355273}
   - component: {fileID: 2441892984960523064}
+  - component: {fileID: 2062052926608131085}
   m_Layer: 0
   m_Name: Leg1
   m_TagString: Untagged
@@ -83,6 +84,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2062052926608131085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849739789677332556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.022, y: 0.020747542, z: 0.019999996}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5723777967624367388
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +116,7 @@ GameObject:
   - component: {fileID: 3968819807278107643}
   - component: {fileID: 9080226192881270412}
   - component: {fileID: 1568847933237947634}
+  - component: {fileID: 8884309755405834540}
   m_Layer: 0
   m_Name: Tank1
   m_TagString: Untagged
@@ -166,6 +189,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8884309755405834540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723777967624367388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22600001, y: 0.10199998, z: 0.102}
+  m_Center: {x: 0, y: 0, z: -0.0000000018626448}
 --- !u!1 &7173575517484517633
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +255,7 @@ GameObject:
   - component: {fileID: 922121100460428347}
   - component: {fileID: 2904316777043397641}
   - component: {fileID: 9116288488832826411}
+  - component: {fileID: 7702468345768768956}
   m_Layer: 0
   m_Name: Leg2
   m_TagString: Untagged
@@ -283,3 +328,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7702468345768768956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7400200622979524752}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.022, y: 0.020747542, z: 0.019999996}
+  m_Center: {x: 0, y: 0, z: 0}

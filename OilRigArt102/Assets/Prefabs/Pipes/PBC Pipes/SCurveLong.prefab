@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2107905407887882768}
   - component: {fileID: 2787094980209480901}
   - component: {fileID: 3581698660801223528}
+  - component: {fileID: 2993393137616947537}
   m_Layer: 0
   m_Name: SCurveLong
   m_TagString: Untagged
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2993393137616947537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621740814045964502}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.039, y: 0.029899994, z: 0.0068999985}
+  m_Center: {x: -0.019499997, y: 0.011499999, z: 0}

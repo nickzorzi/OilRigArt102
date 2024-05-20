@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 6541132923228274543}
   - component: {fileID: 6535602889620868285}
   - component: {fileID: 1754588284835369372}
+  - component: {fileID: 2670276605940253782}
   m_Layer: 0
   m_Name: PumpModule
   m_TagString: Untagged
@@ -707,6 +708,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2670276605940253782
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143298222704612460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.025999997, y: 0.019999996, z: 0.14999998}
+  m_Center: {x: -0.0069999993, y: 0, z: 0.06499998}
 --- !u!1 &8595944107509234243
 GameObject:
   m_ObjectHideFlags: 0

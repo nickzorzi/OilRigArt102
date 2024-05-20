@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5771105756744670420}
   - component: {fileID: 4404990945538907594}
   - component: {fileID: 5469604614662129982}
+  - component: {fileID: 4507035533696357518}
   m_Layer: 0
   m_Name: 45_Curve
   m_TagString: Untagged
@@ -84,3 +85,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4507035533696357518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130206401682382517}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02595457, y: 0.014691973, z: 0.0062188394}
+  m_Center: {x: -0.012977285, y: -0.0042365766, z: -1.1641534e-10}

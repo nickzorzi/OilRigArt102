@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5573314224207728757}
   - component: {fileID: 6789923117448462388}
   - component: {fileID: 5040281090957674241}
+  - component: {fileID: 1354562212095408541}
   m_Layer: 0
   m_Name: GeneratorBox
   m_TagString: Untagged
@@ -84,6 +85,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1354562212095408541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894303030795280851}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.19999999, y: 0.10199998, z: 0.09999998}
+  m_Center: {x: 0, y: 0.0009999999, z: 0}
 --- !u!1 &1238482351513362450
 GameObject:
   m_ObjectHideFlags: 0

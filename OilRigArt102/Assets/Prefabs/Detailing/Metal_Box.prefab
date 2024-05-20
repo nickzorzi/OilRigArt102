@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 3635375434633894767}
   - component: {fileID: 9136763293696666074}
   - component: {fileID: 4382353427068012655}
+  - component: {fileID: 5270829876088278855}
   m_Layer: 0
   m_Name: MetalWavyBox
   m_TagString: Untagged
@@ -200,6 +201,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5270829876088278855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714196824723634831}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08, y: 0.09999998, z: 0.08599998}
+  m_Center: {x: 0, y: 0, z: 0.0029999982}
 --- !u!1 &5176290299342757685
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +233,7 @@ GameObject:
   - component: {fileID: 700332597272613845}
   - component: {fileID: 952087866124370426}
   - component: {fileID: 7357428816564871339}
+  - component: {fileID: 3284954400353172455}
   m_Layer: 0
   m_Name: BaseBox
   m_TagString: Untagged
@@ -283,3 +306,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3284954400353172455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5176290299342757685}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08, y: 0.09999998, z: 0.009999998}
+  m_Center: {x: 0, y: 0, z: 0}
